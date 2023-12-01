@@ -14,8 +14,7 @@ def main(s,n):
     if n < len(s):
         
         return s[n]
-    else:
-        return False
+    return False
 Z= main("2*44", 1)
 print(Z)  
 
