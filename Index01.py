@@ -11,6 +11,5 @@ def main(s):
      Qaytaradi:
          str: javob
     """
-    s="python"
     return s[0]
 print(main("python"))
