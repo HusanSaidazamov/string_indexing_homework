@@ -13,5 +13,5 @@ def main(a):
     """
    
    
-    return  a[0]+a[1]
-print(main("uz"))
+    return  a[0]+a[3]
+print(main("code"))
