@@ -1,4 +1,4 @@
-def main(s,n):
+def main(s):
     """
     A string of length five is given. Return the index of the "*" character, return False if not present.
     Args:
@@ -11,11 +11,14 @@ def main(s,n):
      Qaytaradi:
          int: javob
     """
-    if n < len(s):
-        
-        return s[n]
-    return False
-Z= main("2*44", 1)
-print(Z)  
+    if "*" in s:
+        indeks = ("*")
+        return indeks
+    else:
+        return False
 
+# Misol uchun
+s = "Hello*World"
+natija = main(s)
+print(natija) 
         

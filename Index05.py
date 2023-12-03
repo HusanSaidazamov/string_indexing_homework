@@ -1,4 +1,4 @@
-def main(a):
+def main(s):
     """
     Given a variable s string of length five. Determine the number of digits involved in this variable.
     Args:
@@ -11,7 +11,10 @@ def main(a):
      Qaytaradi:
          int: javob
     """
-  
+    
+    return int(s)
 
-    return len(a)
-print(main("12340"))
+# Misol uchun
+s = "123z45"
+son = main(s)
+print(son)  # Natija: 12345     

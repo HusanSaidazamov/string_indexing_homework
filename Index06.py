@@ -1,4 +1,4 @@
-def main(a):
+def main(s):
     """
     A string variable consisting of several characters is given. Add and return the first and last character.
     Args:
@@ -11,7 +11,13 @@ def main(a):
      Qaytaradi:
          str: javob
     """
+    A = s[0]
+    B = s[-1]
+    javob = A + B
+    return javob
+
+# Misol uchun
+s = "good"
+natija =main(s) 
+print(natija)  # Natija: "H!"  
    
-   
-    return  a[0]+a[3]
-print(main("code"))
