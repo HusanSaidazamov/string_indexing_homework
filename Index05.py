@@ -15,6 +15,6 @@ def main(s):
     return int(s)
 
 # Misol uchun
-s = "123z45"
+s = "12345"
 son = main(s)
 print(son)  # Natija: 12345     

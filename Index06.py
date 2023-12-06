@@ -19,5 +19,5 @@ def main(s):
 # Misol uchun
 s = "good"
 natija =main(s) 
-print(natija)  # Natija: "H!"  
+print(natija)  
    

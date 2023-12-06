@@ -11,4 +11,15 @@ def main(s):
      Qaytaradi:
          int: javob
     """
-    return
+    if s:
+        
+        return int(s)
+    if str(s):
+        return str(s)
+
+# Test qilish
+test_string1 = "sew"
+
+
+print(main(test_string1))  # 123
+
